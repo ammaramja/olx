@@ -1,0 +1,68 @@
+
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+body
+{
+	padding-top: 50px;
+}
+.carousells{
+width: auto;
+  height: 225px;
+  max-height: 225px;
+}
+.crop {
+ height: 400px;
+ width: 800px;
+ overflow: hidden;
+}
+.crop img {
+ height: auto;
+ width: 400px;
+}
+.navbar-header .navbar-brand{
+	color:red;
+	font-family: Verdana;
+}
+.navbar-default .navbar-nav > li > a{
+color: white;
+
+}
+.navbar-default .navbar-nav > li > a:hover{
+color: green;
+
+}
+
+.pb-modalreglog-container
+    {
+        margin-top: 100px;
+    }
+
+    .pb-modalreglog-legend
+    {
+        text-align: center;
+    }
+
+    .pb-modalreglog-input-group
+    {
+        margin: auto;
+    }
+
+    .pb-modalreglog-submit
+    {
+        margin-left: 5px;
+    }
+
+    .pb-modalreglog-form-reg
+    {
+        text-align: center;
+    }
+
+    .pb-modalreglog-footer p
+    {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #pb-modalreglog-progressbar
+    {
+        border-radius: 2px;
+    }

@@ -1,0 +1,15 @@
+Home
+Login
+REgistration
+Post ad
+Edit ad
+Show ads by logged in user
+Search ads
+
+
+maps
+ratings
+deals of the day and timer
+subscribe
+glyphicons
+vertical navbar on left with social media details
