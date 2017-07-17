@@ -2,11 +2,17 @@
 body
 {
 	padding-top: 50px;
+    background-color: #D4DFC7;
 }
+
 .carousells{
 width: auto;
   height: 400px;
   max-height: 400px;
+}
+
+#categ_r{
+    padding-left: 100px;
 }
 /*.crop {
  height: 400px;
@@ -22,8 +28,8 @@ img{
     height: 200px;
 }
 .center-img{
- width: 300px;
-    height: 300px;   
+ width: 150px;
+    height: 150px;   
 }
 .navbar-header .navbar-brand{
 	color:red;

@@ -8,7 +8,7 @@ Search ads
 
 
 maps
-ratings
+Seller ratings
 deals of the day and timer
 subscribe
 glyphicons
