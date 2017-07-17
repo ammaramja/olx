@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Post Ad!</title>
+	<title>OLX - Post Ad!</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -35,9 +35,12 @@
           <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop by category <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Electronics</a></li>
-            <li><a href="#">Cars</a></li>
-            <li><a href="#">Bikes</a></li>
+              <li><a href="mobiles.html">Mobiles</a></li>
+            <li><a href="cars.html">Cars</a></li>
+            <li><a href="real_estate.html">Real Estate</a></li>
+        <li><a href="books.html">Books</a></li>
+        <li><a href="ap.html">Apparel</a></li>
+        <li><a href="furn.html">Furniture</a></li>
           </ul>
       </li>
 
@@ -66,7 +69,103 @@
 </nav>
 </div><!-- /.container-fluid -->
 
-<div style="font-family:roboto;font-weight:800">
+
+<div class="container-fluid">
+  <form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<center><h2 style="font-family:roboto;font-size:300%;font-weight:800">Submit a free Ad<h2></center>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Ad Title">Ad Title*</label>  
+  <div class="col-md-4">
+  <input id="Ad Title" name="Ad Title" type="text" placeholder="Attractive title" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Button Drop Down -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="selectbasic">Categories*</label>
+  <div class="col-md-4">
+    <select id="selectbasic" name="selectbasic" class="input-xlarge">
+      <option>Apparel</option>
+      <option>Books</option>
+      <option>Electronics</option>
+      <option>Furniture</option>
+      <option>Mobiles</option>
+      <option>Real Estate</option>
+    </select>
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Price*</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textarea">Ad description*</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="textarea" name="textarea"></textarea>
+  </div>
+</div>
+
+<!-- File Button --> 
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Upload a picture">Upload a picture*</label>
+  <div class="col-md-4">
+    <input id="Upload a picture" name="Upload a picture" class="input-file" type="file">
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput_name">Name*</label>  
+  <div class="col-md-4">
+  <input id="textinput_name" name="textinput_name" type="text" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput_number">Number*</label>  
+  <div class="col-md-4">
+  <input id="textinput_number" name="textinput_number" type="text" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput_city">City*</label>  
+  <div class="col-md-4">
+  <input id="textinput_city" name="textinput_city" type="text" placeholder="" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<div class="form-group">
+<center>
+    <button id="singlebutton" name="singlebutton" class="btn btn-success">POST</button>
+    </center>
+  </div>
+</div>
+
+</fieldset>
+</form>  
+
+  
+</div>
+<!--<div class="container-fluid" style="font-family:roboto;font-weight:800">
 <br>
 <center><h2 style="font-family:roboto;font-size:300%;font-weight:800">Submit a free Ad<h2></center>
 <br>
@@ -106,9 +205,10 @@
 <center>By clicking 'Post' you agree to our Terms of Use</center>
 <center><input type="submit" value="Post" name="post_ad"></center>
 </div>
-
+-->
 
   <footer class="footer-bs" style="background-color:#3C3C3D;color: white;font-family: Verdana;">
+        
         <div class="row">
           <div class="col-md-3 footer-brand animated fadeInLeft">
             <br>
@@ -117,58 +217,127 @@
                 <p style="font-size:75%;padding-left:40px;">Widely known as India’s no. 1 online reselling platform, OLX is all about you. Our aim is to empower every person in the country to independently connect with buyers and sellers online.  Want to buy your first car? We’re here for you. Want to sell commercial property to buy your dream home? We’re here for you. Whatever job you’ve got, we promise to get it done.</p>
                 <p style="padding-left:35px;">© 2017 OLX Inc., All rights reserved</p>
             </div>
-          <div class="col-md-4 footer-nav animated fadeInUp">
+          <div class="col-md-6 footer-nav animated fadeInUp">
               <br>
               <center><h4>Menu</h4></center>
               <br>
               <br>
-              <div class="col-md-6">
-                    <ul class="pages">
-                        <li><a href="#">Travel</a></li>
-                        <li><a href="#">Nature</a></li>
-                        <li><a href="#">Explores</a></li>
-                        <li><a href="#">Science</a></li>
-                        <li><a href="#">Advice</a></li>
-                    </ul>
-                </div>
-              <div class="col-md-6">
-                    <ul class="list">
+                        <center><ul class="list" style="list-style-type: none;padding-left: 0">
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Contacts</a></li>
                         <li><a href="#">Terms & Condition</a></li>
                         <li><a href="#">Privacy Policy</a></li>
                     </ul>
-                </div>
+                    </center>
+             
             </div>
-          <div class="col-md-2 footer-social animated fadeInDown">
+          <div class="col-md-3 footer-social animated fadeInDown">
               <br>
-              <h4>Follow Us</h4>
+              <center><h4>Follow Us</h4></center>
               <br>
               <br>
-              <ul>
+              <center><ul style="list-style-type: none;padding-left: 0">
                   <li><a href="#">Facebook</a></li>
                   <li><a href="#">Twitter</a></li>
                   <li><a href="#">Instagram</a></li>
                   <li><a href="#">RSS</a></li>
-                </ul>
+                </ul></center>
             </div>
-          <div class="col-md-3 footer-ns animated fadeInRight">
-              <h4>Newsletter</h4>
-                <p>A rover wearing a fuzzy suit doesn’t alarm the real penguins</p>
-                <p>
-                    <div class="input-group">
-                      <input type="text" class="form-control" placeholder="Search for...">
-                      <span class="input-group-btn">
-                        <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-envelope"></span></button>
-                      </span>
-                    </div><!-- /input-group -->
-                 </p>
             </div>
-        </div>
+          
     </footer>
     <section style="text-align:center; margin:10px auto;background-color:#3C3C3D;color: white;font-family: Verdana;"><p>Designed by Ammar Amjawala</p></section>
 
-</div>
+   <!--Sign in and sign uo modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h4 class="modal-title" id="myModalLabel">Login form</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="email">Email address</label>
+                                    <div class="input-group pb-modalreglog-input-group">
+                                        <input type="email" class="form-control" id="email" placeholder="Email">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <div class="input-group pb-modalreglog-input-group">
+                                        <input type="password" class="form-control" id="pws" placeholder="Password">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Log in</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-sm" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h4 class="modal-title" id="myModalLabel">Registration form</h4>
+                        </div>
+                        <div class="modal-body">
+                            <form class="pb-modalreglog-form-reg">
+                                <div class="form-group">
+                                    <div id="pb-modalreglog-progressbar"></div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email address</label>
+                                    <div class="input-group pb-modalreglog-input-group">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <div class="input-group pb-modalreglog-input-group">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                                        <input type="password" class="form-control" id="inputPws" placeholder="Password">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone_number">Phone Number</label>
+                                    <div class="input-group pb-modalreglog-input-group">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-earphone"></span></span>
+                                        <input type="text" class="form-control" id="inputConfirmPws" placeholder="Phone Number">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="City">City</label>
+                                    <div class="input-group pb-modalreglog-input-group">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-globe"></span></span>
+                                        <input type="text" class="form-control" id="countries" placeholder="City">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="checkbox" id="ch" name="chs">
+                                    I agree with <a href="#">terms and conditions.</a>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Sign up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
 </body>
 </html>
